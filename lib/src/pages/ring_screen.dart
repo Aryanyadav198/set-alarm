@@ -123,6 +123,7 @@ class RingScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
+              
               OutlinedButton(
                 onPressed: () => _snoozeAlarm(context),
                 style: OutlinedButton.styleFrom(
