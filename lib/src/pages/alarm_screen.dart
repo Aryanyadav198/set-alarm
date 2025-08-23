@@ -100,7 +100,7 @@ class _AlarmScreenState extends State<AlarmScreen> {
       dateTime: scheduleDateTime,
       assetAudioPath:
           _customAudioPath!, // Make sure to add an audio file in your assets
-      loopAudio: true,
+      loopAudio: false,
       vibrate: false,
       notificationSettings: NotificationSettings(
         title: 'Alarm',
