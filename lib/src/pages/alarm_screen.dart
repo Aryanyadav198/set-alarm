@@ -104,7 +104,7 @@ class _AlarmScreenState extends State<AlarmScreen> {
       vibrate: false,
       notificationSettings: NotificationSettings(
         title: 'Alarm',
-        body: 'Tap to Stop',
+        body: 'Click to Stop',
       ),
       volumeSettings: VolumeSettings.fade(fadeDuration: Duration(seconds: 3)),
       iOSBackgroundAudio: true,
